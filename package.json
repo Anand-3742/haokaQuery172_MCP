@@ -1,0 +1,27 @@
+{
+  "name": "haokaquery172",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "concurrently \"tsc -w\" \"nodemon dist/app.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "@types/express": "^5.0.3",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/node": "^24.3.0",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
