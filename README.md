@@ -21,8 +21,8 @@
 1. **克隆项目到本地服务器**：
 
    ```bash
-   git clone https://github.com/TacKana/haokaQuery172.git
-   cd haokaQuery172
+   git clone https://github.com/TacKana/haokaQuery172_MCP.git
+   cd haokaQuery172_MCP
    ```
 
 2. **配置环境变量**：
